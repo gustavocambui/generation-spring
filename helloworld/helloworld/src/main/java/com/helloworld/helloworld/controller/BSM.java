@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/BSM")
 public class BSM {
 	@GetMapping
-	public String helloWorld() {
+	public String listaBSM() {
 		return "Lista de BSM - Generation:\nOrientação ao futuro.\nResponsabilidade Pessoal."
 				+ "\nMentalidade de Crescimento.\nPersistência.\nTrabalho em Equipe."
 				+ "\nAtenção aos Detalhes.\nProatividade.\nComunicação.";
